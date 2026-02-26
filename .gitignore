@@ -1,0 +1,18 @@
+# Secrets
+*.csv
+*.pem
+*.key
+.env
+annas_ali_accessKeys.csv
+
+# AWS Config/Outputs
+*.json
+!resume_data.json
+r53_zones.json
+cf_dist.json
+s3_policy.json
+acm_certs.json
+
+# OS files
+.DS_Store
+Thumbs.db
